@@ -98,7 +98,7 @@ if (toInsure.ProductTypeName == "Laptops" || toInsure.ProductTypeName == "Smartp
 #### Reason
 - This is a alternative test project. We could use this in a TDD aproach, writing all the BDD scenarios before beging the development.
 
-##Task 3
+## Task 3
 #### Assumption/Decision Made
 - 1 - I created a new endpoint, we the user can get the Insurace for the other passing a list of product ids.
 - 2 - Another method in the InsuranceService was created GetOrderInsuranceAsync.
@@ -108,7 +108,7 @@ if (toInsure.ProductTypeName == "Laptops" || toInsure.ProductTypeName == "Smartp
 - 2 - This method do a foreach in the productid list and fill the insurance for each product. The method fill the total insurance for the oder too.
 - 3 - I created a unit test before develop the the solution. Try to keep the TDD in mind.
 
-##Task 4
+## Task 4
 #### Assumption/Decision Made
 - 1 - I added the method AddExtraInsuranceforDigitalCameras in the end of the method GetOrderInsuranceAsync from the InsuranceService 
 - 2 - I unit test was created to validate the change.
@@ -116,7 +116,7 @@ if (toInsure.ProductTypeName == "Laptops" || toInsure.ProductTypeName == "Smartp
 - 1 This method will verify if exists any digital Camera product type in the order, if so it will add the value 500 to the total insurance
 - 2 - I created a unit test before develop the the solution. Try to keep the TDD in mind.
 
-##Task 5
+## Task 5
 #### Assumption/Decision Made
 - 1 - I created a new controller called SurchageRateController and a POST endpoint to the user be able to add new rates.
 - 2 - to persiste the New Rate I Created a EF CORE Context and a new service calledSurchargeRateService.
